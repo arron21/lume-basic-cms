@@ -32,7 +32,7 @@ cms.storage(
   new GitHub({
     client: new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") }),
     owner: "arron21",
-    repo: "lume-basic-cms",
+    repo: "lume-basic-site",
   }),
 );
 
