@@ -60,14 +60,6 @@ cms.collection("pages-tsx", "src:pages-tsx/*.tsx", [
   "content: code",
 ]);
 
-cms.collection({
-  name: "Components",
-  description: "Edit the components code of your website",
-  store: "src:_components/*.tsx",
-  fields: [
-    "content: code",
-  ],
-});
 
 cms.document(
 {
