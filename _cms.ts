@@ -63,7 +63,7 @@ cms.collection("pages-tsx", "src:pages-tsx/*.tsx", [
 cms.collection({
   name: "Components",
   description: "Edit the components code of your website",
-  store: "src:components/*.tsx",
+  store: "src:_components/*.tsx",
   fields: [
     "content: code",
   ],
